@@ -4,7 +4,7 @@ export default function Journey() {
   return (
     <section id="journey" className="mx-auto max-w-5xl px-4 py-16">
       <h2 className="text-center text-3xl font-extrabold text-navy md:text-4xl">
-        Softenix CRM helps your business every step of the way
+        Painter CRM for every step of the job
       </h2>
       <div className="mt-12 space-y-8">
         {STEPS.map((step) => (

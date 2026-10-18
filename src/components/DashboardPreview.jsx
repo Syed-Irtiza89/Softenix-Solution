@@ -1,29 +1,29 @@
 export default function DashboardPreview({ variant = 0 }) {
   const views = [
     {
-      title: "Sales pipeline",
+      title: "Job pipeline",
       kpis: [
-        ["New leads", "48"],
+        ["New jobs", "48"],
         ["Won this week", "12"],
         ["Invoice due", "$18.4k"],
       ],
       columns: [
-        ["Lead", ["Meridian Health", "Brighton Retail"]],
-        ["Proposal", ["Atlas Labs", "Kensington Foods"]],
-        ["Won", ["Harbor Bank"]],
+        ["Lead", ["Harbor House interior", "Oak St exterior"]],
+        ["Quoted", ["Riverside cabinets", "City Hall commercial"]],
+        ["Scheduled", ["Pine Lane repaint"]],
       ],
     },
     {
-      title: "Contact center",
+      title: "Color & crew",
       kpis: [
-        ["Open chats", "9"],
-        ["Avg reply", "2m"],
-        ["Booked", "6"],
+        ["Open quotes", "9"],
+        ["Crews out", "4"],
+        ["Walkthroughs", "6"],
       ],
       columns: [
-        ["Chat", ["James — pricing", "Elena — demo"]],
-        ["Email", ["Marcus — invoice"]],
-        ["Calls", ["Claire — follow-up"]],
+        ["Colors", ["SW 7005 interior", "BM Hale Navy"]],
+        ["Prep", ["Patch + caulk"]],
+        ["Crew", ["Team A — Oak St"]],
       ],
     },
     {
@@ -50,12 +50,12 @@ export default function DashboardPreview({ variant = 0 }) {
           <span className="h-2.5 w-2.5 rounded-full bg-[#ffd166]" />
           <span className="h-2.5 w-2.5 rounded-full bg-[#06d6a0]" />
         </div>
-        <p className="text-xs font-semibold text-slate-500">{view.title} · Softenix CRM</p>
+        <p className="text-xs font-semibold text-slate-500">{view.title} · Painter CRM</p>
         <span className="text-xs text-teal">Live</span>
       </div>
       <div className="grid gap-4 bg-gradient-to-br from-[#f7fbff] to-white p-5 md:grid-cols-[200px_1fr]">
         <aside className="hidden space-y-2 rounded-2xl bg-navy p-4 text-white md:block">
-          {["Overview", "Leads", "Deals", "Invoices", "Inbox", "Reports"].map((item, i) => (
+          {["Overview", "Jobs", "Quotes", "Invoices", "Crews", "Colors"].map((item, i) => (
             <div
               key={item}
               className={`rounded-xl px-3 py-2 text-sm ${i === variant ? "bg-teal" : "text-white/70"}`}

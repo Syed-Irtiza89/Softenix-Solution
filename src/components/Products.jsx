@@ -4,7 +4,7 @@ export default function Products() {
   return (
     <>
       <section id="work" className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="text-center text-3xl font-extrabold text-navy">What we ship</h2>
+        <h2 className="text-center text-3xl font-extrabold text-navy">Painter CRM platform</h2>
         <div className="mt-10 grid gap-5 md:grid-cols-2">
           {PRODUCTS.map((p) => (
             <article key={p.title} className="rounded-[28px] bg-navy p-7 text-white">
@@ -20,10 +20,10 @@ export default function Products() {
 
       <section className="px-4 pb-8">
         <div className="mx-auto max-w-5xl overflow-hidden rounded-[32px] bg-gradient-to-r from-navy via-[#155a8a] to-teal p-8 text-white md:p-12">
-          <h2 className="text-3xl font-extrabold md:text-4xl">Softenix CRM does it all</h2>
+          <h2 className="text-3xl font-extrabold md:text-4xl">Dedicated to painters</h2>
           <p className="mt-3 max-w-xl text-white/80">
-            Lead acquisition, sales, marketing, customer service, and automation — all in one
-            place. Headquartered in Hampton, Virginia, built for growing teams.
+            Softenix Solution exists to run painting businesses: jobs, colors, crews, and cash.
+            Headquartered in Hampton, Virginia.
           </p>
           <a
             href="#contact"

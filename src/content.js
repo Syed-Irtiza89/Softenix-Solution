@@ -8,148 +8,167 @@ export const NAV = [
   { href: "#overview", label: "Overview" },
   { href: "#journey", label: "How it works" },
   { href: "#why", label: "Why Softenix?" },
-  { href: "#work", label: "Platform" },
+  { href: "#about", label: "About" },
+  { href: "#work", label: "Painter CRM" },
   { href: "#faq", label: "FAQ" },
   { href: "#contact", label: "Contact" },
 ];
 
 export const CAPABILITIES = [
-  "Acquire leads",
-  "Close deals",
-  "Send invoices",
-  "Receive payments",
-  "Run marketing",
-  "Organize teamwork",
-  "Automate sales",
-  "Analyze data",
+  "Capture paint jobs",
+  "Send estimates",
+  "Schedule crews",
+  "Track colors",
+  "Invoice clients",
+  "Collect payments",
+  "Follow up quotes",
+  "Repeat work",
 ];
 
 export const STATS = [
-  { value: "1 workspace", label: "Leads to payments" },
-  { value: "Hampton, VA", label: "U.S. headquarters" },
-  { value: "24/7", label: "Inbox & follow-ups" },
-  { value: "Web + CRM", label: "Custom software too" },
+  { value: "Painter CRM", label: "Built only for painters" },
+  { value: "Hampton, VA", label: "Headquarters" },
+  { value: "2–10", label: "Software team" },
+  { value: "Job → paid", label: "One workspace" },
 ];
 
 export const STEPS = [
   {
     n: "1",
-    title: "Capture more leads with less effort",
+    title: "Capture every painting lead",
     points: [
-      "Bring web forms, SMS, email, and social messages into one contact center.",
-      "Add every inquiry to your pipeline instantly and tag it by source.",
-      "Segment by behavior so your team always knows who is ready to buy.",
+      "Bring website forms, Google messages, SMS, calls, and referrals into one inbox.",
+      "Tag interior, exterior, commercial, cabinet, or touch-up jobs the moment they arrive.",
+      "Never lose a walkthrough request that came in after hours.",
     ],
   },
   {
     n: "2",
-    title: "Build stronger relationships",
+    title: "Keep color notes and job history together",
     points: [
-      "Follow up with automated, personalized emails and reminders.",
-      "Keep calls, chats, and notes in one client profile.",
-      "Send estimates or book a meeting in a few clicks.",
+      "Store rooms, surfaces, prep, sheen, and paint colors on the customer record.",
+      "Attach photos, gate codes, and walkthrough notes before you quote.",
+      "When a homeowner calls back, you already know what you painted last time.",
     ],
   },
   {
     n: "3",
-    title: "Turn deals into dollars",
+    title: "Quote faster and close more jobs",
     points: [
-      "Customize pipeline stages and track progress visually.",
-      "Send branded proposals, contracts, and invoices.",
-      "Offer one-click payment options right from the deal card.",
+      "Send branded estimates with Good / Better / Best options.",
+      "Track quote follow-ups so warm leads do not go cold.",
+      "Let clients approve from the deal card and pay a deposit online.",
     ],
   },
   {
     n: "4",
-    title: "Get paid, stay in sync",
+    title: "Dispatch crews and get paid",
     points: [
-      "Sync products, invoices, and deal value in real time.",
-      "Align sales, delivery, and finance on one dashboard.",
-      "Use team chat, shared calendars, and live deal updates.",
+      "Schedule crews, rooms, and start dates on one calendar.",
+      "Invoice from the job and collect card or online payment.",
+      "Keep office, estimator, and painters aligned in real time.",
     ],
   },
   {
     n: "5",
-    title: "Keep customers coming back",
+    title: "Win the next coat, not just this job",
     points: [
-      "Send thank-you notes, renewals, and promo campaigns.",
-      "Segment clients for targeted follow-up.",
-      "Book next meetings automatically after a deal closes.",
+      "Send thank-you notes, review requests, and seasonal repaint campaigns.",
+      "Turn one-time interiors into exterior, cabinet, and maintenance work.",
+      "Book follow-up visits automatically after the job closes.",
     ],
   },
 ];
 
 export const REASONS = [
   {
-    title: "All-in-one platform",
-    body: "Manage leads, deals, contacts, invoices, payments, products, and communication without switching tools.",
+    title: "Dedicated painter CRM",
+    body: "Not a generic sales CRM. Softenix is built around estimates, color specs, crews, and painting jobs from first call to final coat.",
     icon: "grid",
   },
   {
-    title: "Visual sales automation",
-    body: "Set rules to send emails, assign tasks, and move deals so nothing falls through the cracks.",
+    title: "Custom workflows",
+    body: "We design the pipeline around how your painting company actually sells: walkthrough, quote, deposit, prep, paint, punch, paid.",
     icon: "flow",
   },
   {
-    title: "Invoices & payments",
-    body: "Send branded estimates and invoices from the deal. Clients pay online, you get paid on time.",
+    title: "Estimates & payments",
+    body: "Send branded quotes and invoices from the job. Homeowners pay online so you stop chasing checks.",
     icon: "card",
   },
   {
     title: "Customer communication",
-    body: "Handle email, calls, and messenger chats in one contact center. No more tab overload.",
+    body: "Calls, texts, and emails sit on one client profile with the rooms and colors you already discussed.",
     icon: "chat",
   },
   {
-    title: "Booking & scheduling",
-    body: "Let clients book meetings that sync with your calendar and become CRM leads automatically.",
+    title: "Crew scheduling",
+    body: "Book site visits and job days that sync to your calendar and become CRM jobs automatically.",
     icon: "cal",
   },
   {
-    title: "Marketing & analytics",
-    body: "Launch campaigns, segment audiences, and watch conversion grow from a single workspace.",
+    title: "Automation & analytics",
+    body: "Follow up stale quotes, track close rates, and see which job types actually make money.",
     icon: "chart",
   },
 ];
 
+export const ABOUT = {
+  tagline: "Empowering business growth with custom CRM solutions & intelligent workflows",
+  who: "At Softenix, we deliver high-performance, secure, and scalable CRM solutions tailored to streamline customer interactions, automate sales pipelines, and drive sustainable business growth. We specialize in engineering custom CRM architectures — and we are dedicated to Painter CRM for painting contractors.",
+  what: [
+    "Custom Painter CRM and tailored job workflows",
+    "Integrations with payments, calendars, and marketing tools",
+    "Process automation and real-time analytics",
+    "Cloud-native architecture that grows with your crews",
+  ],
+  why: "We combine engineering excellence with a customer-first approach, so your CRM is not just a database — it is the engine that books jobs, runs crews, and keeps homeowners coming back.",
+  facts: [
+    { label: "Industry", value: "Software Development" },
+    { label: "Size", value: "2–10 employees" },
+    { label: "HQ", value: "Hampton, Virginia" },
+    { label: "Type", value: "Privately held" },
+  ],
+};
+
 export const PRODUCTS = [
   {
-    title: "Softenix CRM",
-    tag: "Sales OS",
-    copy: "Lead capture to payment in one workspace — pipelines, invoices, and follow-ups included.",
+    title: "Painter CRM",
+    tag: "Flagship",
+    copy: "The CRM built for painters: leads, color notes, estimates, crews, invoices, and repeat work in one place.",
   },
   {
-    title: "Pulse Desk",
-    tag: "Client portal",
-    copy: "Agency delivery with live milestones, invoices, pay-to-unlock assets, and AI co-pilot.",
+    title: "Job & crew board",
+    tag: "Operations",
+    copy: "See interior, exterior, and commercial jobs move from quoted to scheduled to painted — without a spreadsheet.",
   },
   {
-    title: "Enterprise backends",
-    tag: ".NET Core",
-    copy: "High-throughput APIs and cloud-ready systems built for scale, security, and speed.",
+    title: "Estimates that close",
+    tag: "Sales",
+    copy: "Branded quotes, deposit collection, and automatic follow-up when a homeowner goes quiet.",
   },
   {
-    title: "Web3 & SaaS",
-    tag: "Build",
-    copy: "Smart contracts, dApps, and custom web/mobile products from architecture to launch.",
+    title: "Owner analytics",
+    tag: "Insight",
+    copy: "Close rate, average ticket, overdue invoices, and which neighborhoods keep calling you back.",
   },
 ];
 
 export const FAQS = [
   {
-    q: "Is Softenix only a CRM?",
-    a: "Softenix CRM is our flagship product, but Softenix Solution also builds client portals, .NET backends, SaaS, and Web3 products around the same sales workflow.",
+    q: "Is Softenix a generic CRM?",
+    a: "No. Softenix Solution is dedicated to Painter CRM. The pipeline, color records, crews, and invoices are modeled for painting contractors — not for random sales teams.",
   },
   {
     q: "Can we start with a consultation?",
-    a: "Yes. Share your pipeline, product, or portal goals in the contact form. We reply by email and can continue on LinkedIn or Facebook.",
+    a: "Yes. Tell us about your painting company, crew size, and how you quote today. We reply by email and can continue on LinkedIn or Facebook.",
   },
   {
     q: "Do you work with teams outside Virginia?",
-    a: "Yes. We are headquartered in Hampton, Virginia, and deliver for teams across the United States and internationally.",
+    a: "Yes. We are headquartered in Hampton, Virginia, and deliver Painter CRM for painting companies across the United States.",
   },
   {
-    q: "Can the CRM connect to SMS and email?",
-    a: "That is the core idea: web forms, SMS, email, and social inquiries land in one contact center and become pipeline records.",
+    q: "Can it store paint colors and job photos?",
+    a: "Yes. Rooms, sheen, brand/color, prep notes, and photos live on the customer record so the next quote is faster.",
   },
 ];

@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Journey from "./components/Journey";
 import Why from "./components/Why";
+import About from "./components/About";
 import Products from "./components/Products";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
@@ -15,6 +16,7 @@ export default function App() {
         <Hero />
         <Journey />
         <Why />
+        <About />
         <Products />
         <Faq />
         <Contact />

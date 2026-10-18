@@ -16,14 +16,14 @@ export default function Hero() {
     <>
       <section id="overview" className="px-4 pb-8 pt-14 text-center md:pt-20">
         <p className="mb-4 text-sm font-semibold tracking-wide text-teal-deep">
-          Hampton, Virginia · Sell smarter, faster, better with Softenix CRM
+          Hampton, Virginia · Dedicated Painter CRM for painting contractors
         </p>
         <h1 className="mx-auto max-w-4xl text-4xl font-extrabold leading-tight text-navy md:text-6xl">
-          Softenix: one platform to sell smarter, faster, better
+          The CRM built for painters — from quote to final coat
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-lg text-slate-600">
-          From lead capture to payment and everything in between, Softenix Solution helps your
-          team stay focused, connected, and in control.
+          Softenix Solution is dedicated to Painter CRM. Capture jobs, store color notes, dispatch
+          crews, invoice homeowners, and grow repeat work — in one workspace.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <a href="#contact" className="rounded-full bg-navy px-7 py-3 text-sm font-semibold text-white">
@@ -75,7 +75,7 @@ export default function Hero() {
 
       <section className="overflow-hidden py-6" aria-hidden="true">
         <p className="mb-4 text-center text-sm font-semibold text-slate-500">
-          Built in Hampton, Virginia. Ready for teams nationwide.
+          Built in Hampton, Virginia. Built only for painting companies.
         </p>
         <div className="relative">
           <div className="marquee flex w-[200%] gap-10 text-lg font-extrabold tracking-wide text-slate-300">

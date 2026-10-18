@@ -26,8 +26,8 @@ export default function Contact() {
       <div>
         <h2 className="text-3xl font-extrabold text-navy">Get started</h2>
         <p className="mt-3 text-slate-600">
-          Tell us about your pipeline, product, or portal. We reply on email and can continue
-          the conversation on LinkedIn or Facebook.
+          Tell us about your painting company — interiors, exteriors, crew size, and how you
+          quote today. We reply on email and can continue on LinkedIn or Facebook.
         </p>
         <div className="mt-6 space-y-3 text-sm">
           <a className="block font-semibold text-navy" href={`mailto:${LINKS.email}`}>
@@ -85,7 +85,7 @@ export default function Contact() {
             id="message"
             required
             rows={4}
-            placeholder="Pipeline, portal, or product goals"
+            placeholder="Crew size, job types, and how you quote today"
             value={form.message}
             onChange={field("message")}
             className="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2 outline-none focus:border-teal"

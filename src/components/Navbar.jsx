@@ -9,7 +9,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 border-b border-white/60 glass">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Brand compact />
-        <nav className="hidden items-center gap-7 text-sm font-medium text-navy lg:flex">
+        <nav className="hidden items-center gap-4 text-sm font-medium text-navy xl:flex">
           {NAV.map((item) => (
             <a key={item.href} href={item.href} className="hover:text-teal-deep">
               {item.label}
@@ -25,7 +25,7 @@ export default function Navbar() {
           </a>
           <button
             type="button"
-            className="rounded-xl border border-slate-200 bg-white p-2 text-navy lg:hidden"
+            className="rounded-xl border border-slate-200 bg-white p-2 text-navy xl:hidden"
             aria-expanded={open}
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((v) => !v)}
@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
       </div>
       {open && (
-        <div className="border-t border-slate-100 bg-white px-4 py-3 lg:hidden">
+        <div className="border-t border-slate-100 bg-white px-4 py-3 xl:hidden">
           {NAV.map((item) => (
             <a
               key={item.href}
